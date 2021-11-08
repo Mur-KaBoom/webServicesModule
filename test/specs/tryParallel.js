@@ -16,12 +16,8 @@ describe('Implement module task', () => {
         response = await request(opts);
     });
 
-    it('Status should be 200 OK', async () => {
-        expect(response.statusCode).to.be.equal(200);
-    });
-
-    it('header content-type should be application/json; charset=utf-8', async () => {
-        expect(response.headers['content-type']).to.be.equal('application/json; charset=utf-8');
+    it('Response body should be an array of 10 elements', async () => {
+        expect(response.body.length).to.be.equal(10);
     });
 
 })
