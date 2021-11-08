@@ -1,0 +1,32 @@
+{
+  "name": "webservices-module",
+  "version": "1.0.0",
+  "description": "Web Services Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/config/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mur-KaBoom/webServicesModule.git"
+  },
+  "keywords": [
+    "ATM",
+    "Web",
+    "Services"
+  ],
+  "author": "Palina Kazlova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mur-KaBoom/webServicesModule/issues"
+  },
+  "homepage": "https://github.com/Mur-KaBoom/webServicesModule#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.2.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
